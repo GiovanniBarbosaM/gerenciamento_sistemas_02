@@ -1,0 +1,81 @@
+/* Configuração base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0059b3;
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #004080;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0059b3;
+}
+
+.feedback {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #0073e6;
+}
+
+#produtos, #resultadoPesquisa {
+    list-style: none;
+    margin-top: 15px;
+}
+
+#produtos li, #resultadoPesquisa li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
